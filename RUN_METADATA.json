@@ -1,0 +1,12 @@
+{
+  "run_timestamp_utc": "2026-02-28T04:13:55Z",
+  "source_repository_root": "/Users/scotie/Documents/GitHub/resonance-gravity/hexara-nucleon-amp/Untitled",
+  "source_commit": "334137cc9a4e44353c9ceb07abe43d34ae416190",
+  "source_commit_short": "334137c",
+  "python_version": "3.13.7",
+  "numpy_version": "2.3.1",
+  "ngspice_version": "ngspice-45.2",
+  "primary_command": "python3 scripts/run_spice_amp_validation_suite.py",
+  "output_directory": "results/spice_amp_10kw_dsp_suite",
+  "notes": "Hash verification file (SHA256SUMS) generated for all public_release files except SHA256SUMS itself."
+}

@@ -1,0 +1,2 @@
+# Locked dependency set for reproducible peer-review runs
+numpy==2.3.1

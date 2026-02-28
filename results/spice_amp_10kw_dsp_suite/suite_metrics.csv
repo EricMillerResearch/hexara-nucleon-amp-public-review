@@ -1,0 +1,6 @@
+i_max,i_neg,i_pos,p_out,p_out_clip,p_out_post,p_out_pre,p_out_recover,temp_end,temp_max,test,u_max,u_min
+199.8264,,,,,19649.38,10717.89,,,,step_load_change,,
+,,,,,8102.053,10953.98,,,,rail_sag,0.9798169,
+512.081,-512.0788,512.0806,44364.66,,,,,,,load_0p25_stability,0.98,-0.98
+,,,,13350.02,,,4813.23,,,hard_clipping_recovery,0.98,
+,,,,,10696.51,10700.73,,0.0817618,0.08204867,thermal_foldback,,

@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "test": "step_load_change",
+      "p_out_pre": 10717.89,
+      "p_out_post": 19649.38,
+      "i_max": 199.8264
+    },
+    {
+      "test": "rail_sag",
+      "p_out_pre": 10953.98,
+      "p_out_post": 8102.053,
+      "u_max": 0.9798169
+    },
+    {
+      "test": "load_0p25_stability",
+      "u_min": -0.98,
+      "u_max": 0.98,
+      "i_pos": 512.0806,
+      "i_neg": -512.0788,
+      "i_max": 512.081,
+      "p_out": 44364.66
+    },
+    {
+      "test": "hard_clipping_recovery",
+      "p_out_clip": 13350.02,
+      "p_out_recover": 4813.23,
+      "u_max": 0.98
+    },
+    {
+      "test": "thermal_foldback",
+      "temp_max": 0.08204867,
+      "temp_end": 0.0817618,
+      "p_out_pre": 10700.73,
+      "p_out_post": 10696.51
+    }
+  ],
+  "thd_vs_power": [
+    {
+      "vref_pk": 0.2,
+      "vout_rms": 29.43930203381252,
+      "p_out_w": 540.8537,
+      "thd_percent": 0.061060213498078504
+    },
+    {
+      "vref_pk": 0.3,
+      "vout_rms": 44.0924488633028,
+      "p_out_w": 1213.408,
+      "thd_percent": 0.09173009702809493
+    },
+    {
+      "vref_pk": 0.4,
+      "vout_rms": 58.70115720883813,
+      "p_out_w": 2150.8,
+      "thd_percent": 0.12255376504272811
+    },
+    {
+      "vref_pk": 0.5,
+      "vout_rms": 73.26535318055627,
+      "p_out_w": 3350.215,
+      "thd_percent": 0.1535302355992551
+    },
+    {
+      "vref_pk": 0.6,
+      "vout_rms": 87.78496416412914,
+      "p_out_w": 4809.666,
+      "thd_percent": 0.18465865865376582
+    },
+    {
+      "vref_pk": 0.7,
+      "vout_rms": 102.25992081902119,
+      "p_out_w": 6526.882,
+      "thd_percent": 0.2159378976816059
+    },
+    {
+      "vref_pk": 0.8,
+      "vout_rms": 116.69014949681912,
+      "p_out_w": 8497.569,
+      "thd_percent": 0.2473697442328345
+    },
+    {
+      "vref_pk": 0.9,
+      "vout_rms": 127.51208152942571,
+      "p_out_w": 10147.54,
+      "thd_percent": 3.5385237070398396
+    },
+    {
+      "vref_pk": 1.0,
+      "vout_rms": 133.64479402248097,
+      "p_out_w": 11145.88,
+      "thd_percent": 7.861601733726893
+    }
+  ]
+}
